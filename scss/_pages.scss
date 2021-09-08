@@ -1,0 +1,34 @@
+.texto{
+    background-color: $colorsection;
+}
+.texto__parrafo{
+    width: 10px;
+    height: 10px;
+}
+.texto__parrafo--negrita {
+    font-weight: bold;
+}
+.sectionnosotros {
+    background-color: $colorlilainter;
+}
+.sectionnosotros--fuente{
+    font-family: "EB garamond" ;
+}
+.padregrid--fuente{
+    font-family: "EB garamond";
+}
+.facultades {
+    background-color: $colorsection;
+}
+.facultades--fuente{
+    font-size: 10px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+        h3{
+            margin: 20px;
+            border: 20px;
+        }
+}

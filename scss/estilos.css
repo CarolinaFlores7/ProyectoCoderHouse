@@ -1,0 +1,50 @@
+.bordeimagen {
+  border-radius: 5px;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div h3 {
+  margin: 20px;
+  border: 20px;
+}
+
+.texto {
+  background-color: #bf92e0;
+}
+
+.texto__parrafo {
+  width: 10px;
+  height: 10px;
+}
+
+.texto__parrafo--negrita {
+  font-weight: bold;
+}
+.sectionnosotros {
+    background-color: #73689b;
+}
+.sectionnosotros--fuente{
+    font-family: "EB garamond" ;
+}
+.padregrid--fuente{
+    font-family: "EB garamond";
+}
+.facultades {
+    background-color: #bf92e0;
+}
+.facultades--fuente{
+    font-size: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */

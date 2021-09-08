@@ -1,0 +1,117 @@
+@media(max-width:480px){
+    body{
+        background-color: #e9c7ff;
+    }
+}
+@media(max-width:768){
+    ul li{
+        display: auto;
+    }
+}
+@media(max-width: 1200px){
+    h1{
+        color: #e9c7ff;
+    }
+}
+body{
+    background-image: linear-gradient(to right, #948ee7, #515a95);
+    width: 100%;
+    height: 400px;
+}
+h1 {
+    color: #e9c7ff;
+} 
+.nombre {
+    font-family: "EB garamond";
+    text-align: center;
+    width: 500px;
+}
+ul li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px;
+}
+nav{
+    transform: scale;
+}
+h3 {
+    color: #1f2d4e;
+}
+ol {
+    color: #000013;
+}
+h2 {
+    color: #1f2d4e;
+}
+button {
+    color: #948ee7;
+    font-weight: bolder;
+}
+label {
+    color:#0a0a0a;
+    font-weight: bolder;
+}
+table {
+    border: 2px solid;
+    color: #1f2d4e;
+    text-align: center;
+}
+th {
+    background-color: #948ee7;
+}
+.bordesredondeados {
+    border-radius: 8px;
+}
+.negrita {
+    font-weight: bold;
+    list-style-position: inside;
+}
+.lista {
+    list-style-type: upper-alpha;
+    }
+.borde {
+    border: 2px dashed #948ee7;
+}
+.fondo {
+    background-image: linear-gradient( to right,#bf92e0, #f8beed);
+}
+.padregrid{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
+}
+.padreflex {
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 130px;
+    height: 15px;
+    transition: all 2s;
+}
+input:focus {
+    width: 155px;
+    font-size: 25px;
+} 
+img {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+footer{
+	background-color: #948ee7 ;
+	width: 100%;
+	height: 100px;
+	padding: 50px 0 0 0;
+}
+footer h5{
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+}
